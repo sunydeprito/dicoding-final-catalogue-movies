@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Catalogue Movies Ver3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Achmad Raditya suny deprito</string>
+    <string name="nav_header_subtitle">deprito.suny@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- To do localization -->
+    <string name="setting">Pengaturan</string>
+    <string name="search_hint">Cari film disini</string>
+    <string name="search_hint_result">Kecocokan %1s film dengan query %2s</string>
+    <string name="search_title">Cari film</string>
+    <string name="overview">Deskripsi</string>
+    <string name="favorite">Favorit</string>
+    <string name="share">Bagikan</string>
+    <string name="now_playing">Saat Ini</string>
+    <string name="upcoming">Akan Datang</string>
+    <string name="home">Beranda</string>
+    <string name="image_movie">Gambar film</string>
+    <string name="detail_movie">Detail Film</string>
+    <string name="release_date">Tanggal tayang : %s</string>
+    <string name="movie_title">Judul film</string>
+    <string name="detail">Detail</string>
+    <string name="rating">Peringkat : %s/10 </string>
+    <string name="vote">Jumlah pemilih : %s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="language_title">Lokalisasi</string>
+    <string name="summary_title">Pilih Bahasa</string>
+    <string name="lang">Bahasa</string>
+    <string name="key_lang">key_lang</string>
+    <string name="notifications_title">Nottifikasi</string>
+    <string name="key_today_reminder">key_today_reminder</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="summary_daily_reminder">Aktifkan/matikan pegingat harian. Anda akan menerima pengingat harian pada pukul 8 pagi</string>
+    <string name="key_release_reminder">key_release_reminder</string>
+    <string name="release_reminder">Pengingat Film Baru</string>
+    <string name="summary_release_reminder">Aktifkan/matikan pengingat film baru. Anda akan menerima pengingat harian film yang baru tayang pada pukul 7 pagi</string>
+    <string name="message_daily">Ayo cek Katalog Film untuk melihat info film terbaru</string>
+    <string name="release_movie_message">%s telah tayang hari ini, lihat dan tonton!</string>
+    <string name="no_data">Tidak ada data</string>
+</resources>

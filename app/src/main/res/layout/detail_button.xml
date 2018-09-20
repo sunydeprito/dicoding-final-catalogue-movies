@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button_mark_as_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_favorites"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:visibility="visible"
+        android:onClick="onClickButton"/>
+
+    <Button
+        android:id="@+id/button_remove_from_favorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_from_favorites"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:visibility="gone"
+        android:onClick="onClickButton"/>
+
+</LinearLayout>

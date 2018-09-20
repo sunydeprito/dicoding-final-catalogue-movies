@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/layout_tiny_margin"
+    android:layout_marginLeft="@dimen/layout_tiny_margin"
+    android:layout_marginRight="@dimen/layout_tiny_margin"
+    android:layout_marginTop="@dimen/layout_tiny_margin"
+    card_view:cardCornerRadius="@dimen/layout_small_margin">
+
+    <LinearLayout
+        android:id="@+id/cv_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rel_item_movie"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="@dimen/layout_tiny_margin">
+
+            <ImageView
+                android:id="@+id/img_item_photo"
+                android:layout_width="150dp"
+                android:layout_height="220dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/image_movie"
+                tools:src="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tv_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/layout_tiny_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginTop="24dp"
+                android:layout_toEndOf="@id/img_item_photo"
+                android:layout_toRightOf="@id/img_item_photo"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="@string/movie_title" />
+
+            <TextView
+                android:id="@+id/tv_item_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_item_title"
+                android:layout_marginBottom="@dimen/layout_tiny_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_toEndOf="@id/img_item_photo"
+                android:layout_toRightOf="@id/img_item_photo"
+                android:maxLines="5"
+                tools:text="@string/overview" />
+
+            <TextView
+                android:id="@+id/tv_item_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginStart="@dimen/activity_vertical_margin"
+                android:layout_toEndOf="@+id/img_item_photo"
+                android:layout_toRightOf="@+id/img_item_photo"
+                android:drawableLeft="@drawable/ic_date_range"
+                android:drawablePadding="3dp"
+                android:drawableStart="@drawable/ic_date_range"
+                android:gravity="center"
+                android:maxLines="1"
+                tools:text="@string/release_date" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/layout_tiny_margin"
+            android:paddingLeft="@dimen/layout_tiny_margin"
+            android:paddingRight="@dimen/layout_tiny_margin">
+
+            <Button
+                android:id="@+id/btn_set_detail"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/detail"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_set_share"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/share"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Favorite Movies</string>
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+        <string name="navigation_drawer_close">Close navigation drawer</string>
+        <string name="nav_header_title">Achmad Raditya suny deprito</string>
+        <string name="nav_header_subtitle">deprito.suny@gmail.com</string>
+        <string name="nav_header_desc">Navigation header</string>
+        <string name="action_settings">Settings</string>
+
+        <!-- To do localization -->
+        <string name="setting">Setting</string>
+        <string name="search_hint">Search movie here</string>
+        <string name="search_hint_result">Match %1s movies with query %2s</string>
+        <string name="search_title">Search movie</string>
+        <string name="overview">Overview</string>
+        <string name="favorite">Favorite</string>
+        <string name="share">Share</string>
+        <string name="now_playing">Now Playing</string>
+        <string name="upcoming">Upcoming</string>
+        <string name="home">Home</string>
+        <string name="image_movie">Image Movie</string>
+        <string name="detail_movie">Detail Movie</string>
+        <string name="release_date">Release Date : %s</string>
+        <string name="movie_title">Movie Title</string>
+        <string name="detail">Detail</string>
+        <string name="rating">Rating : %s/10 </string>
+        <string name="vote">Total vote : %s</string>
+
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+    </resources>
+
+

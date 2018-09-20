@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Catalogue Movies Ver4</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Achmad Raditya suny deprito</string>
+    <string name="nav_header_subtitle">deprito.suny@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- To do localization -->
+    <string name="setting">Setting</string>
+    <string name="search_hint">Search movie here</string>
+    <string name="search_hint_result">Match %1s movies with query %2s</string>
+    <string name="search_title">Search movie</string>
+    <string name="overview">Overview</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="home">Home</string>
+    <string name="image_movie">Image Movie</string>
+    <string name="detail_movie">Detail Movie</string>
+    <string name="release_date">%s</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="detail">Detail</string>
+    <string name="rating">%s/10 </string>
+    <string name="vote">Total vote : %s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="language_title">Localization</string>
+    <string name="summary_title">Select Language</string>
+    <string name="lang">Language</string>
+    <string name="key_lang">key_lang</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="key_today_reminder">key_today_reminder</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="summary_daily_reminder">Turn on/off daily reminder. You will receive daily reminder at 8AM</string>
+    <string name="key_release_reminder">key_release_reminder</string>
+    <string name="release_reminder">New Movie Release Reminder</string>
+    <string name="summary_release_reminder">Turn on/off new movie release reminder. You will receive daily movie release info at 7AM</string>
+    <string name="message_daily">Let\'s check Catalogue Movie to get new movies info</string>
+    <string name="release_movie_message">%s Release today, check and watch it!</string>
+    <string name="no_data">No data</string>
+    <string name="on_daily_reminder">Turn on daily reminder</string>
+    <string name="off_daily_reminder">Turn off daily reminder</string>
+    <string name="on_movie_release_reminder">Turn on movie release daily reminder </string>
+    <string name="off_movie_release_reminder">Turn off movie release daily reminder </string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="remove_from_favorites">Remove from favorite</string>
+</resources>
