@@ -65,7 +65,8 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         setUpViewpager(viewPager);
         tab.setupWithViewPager(viewPager);
-
+         
+         setActionBar("Welcome to Movie Catalogue);
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -186,4 +187,11 @@ public class MainActivity extends AppCompatActivity
         adapter.populateFragment(new UpcomingFragment(), getString(R.string.upcoming));
         viewPager.setAdapter(adapter);
     }
+    
+    private void setActionBar(String title){
+		if (getSupportActionBar() != null) {
+			getSupportActionBar().setTitle(title);
+		}
+	}
+
 }
